@@ -1,1 +1,2 @@
+![Alt text](cat.png)
 
