@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Lemon';
+    /* Give a name to your font */
+    src: url('./Lemon/Lemon-Regular.ttf') format('truetype');
+    /* Path to the font file */
+}
+
+body {
+    font-family: 'Lemon', Arial, sans-serif;
+    background-image: url('./images/cat.jpeg');
+    background-size: cover;
+    font-weight: bold;
+    color: #191E20;
+    text-align: center;
+}
+
+h1 {
+    color: #191E20;
+}
+
+#message-el {
+    font-style: normal;
+}
+
+button {
+    color: #ff3864;
+    width: 150px;
+    background: #191E20;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+button:hover {
+    background: #ff3864;
+    color: #191E20;
+    cursor: pointer;
+}
+
+.iframe {
+    position: fixed;
+    bottom: 20;
+    right: 20;
+    width: 350px;
+    height: 430px;
+    border: none;
+    z-index: 1000;
+}
